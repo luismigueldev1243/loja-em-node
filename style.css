@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.div-start{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+#btn-search{
+   background-color: #f0ecec;
+   border: none;
+   border-radius: 35%;
+   height: 25px;
+   width: 30px;
+   margin-left: 200px;
+}
+#rps{
+    margin-left: 10px;
+    display: flex;
+    width:38%;
+    border: none;
+    border-radius: 8px;
+    background-color: #ebe8e8;
+    color: rgb(77, 74, 74);
+    height: 30px;
+}
+#pecas{
+    width: 99%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+[id^="square"]{
+    border:none;
+    border-radius: 20px;
+    background-color: rgb(170, 126, 126);
+    width: 18%;
+    height: 250px;
+    margin-bottom: 10px;
+    
+}
+[id^="sqvalue"]{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#logo-img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border-radius:5px ;
+}
+@keyframes ani{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#loader{
+    margin-top: 37px;
+    animation: ani infinite 1.5s linear;
+    transform-origin: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size:32px ;
+
+}
+

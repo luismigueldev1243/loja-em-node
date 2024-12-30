@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="keyworddiv" >
+        <input type="text" placeholder="your keyword: " id="keyword-ipt">
+        <button id="btn-keyword"><i class="fa-solid fa-key"></i></button>
+    </div>
+    <main id="main-div" class=" blur-item">
+        <div id="div1-main">
+        <input list="rps-type" id="type1-selected" placeholder="peça especifica: " name="type1-selected">
+        <datalist id="rps-type">
+            <option value="bones">
+            <option value="calças">
+            <option value="camisas">
+            <option value="tenis">
+            <option value="colares">
+            <option value="intimos">
+        </datalist>
+      
+        <input list="rps-number" id="type2-selected" placeholder="numero da peça :  "  disabled>
+        <datalist id="rps-number">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+            <option value="11">
+            <option value="12">
+            <option value="13">
+            <option value="14">
+            <option value="15">
+        </datalist>
+        <p id="add-info"> price </p>
+        <i class="fa-solid fa-equals"></i>
+        <p id="rps-price"></p>
+    </div>
+    <div id="div2-main">
+         <input type="text" placeholder="change price to:" id="change-price-ipt">
+         <button id="send-changed"><i class="fa-regular fa-paper-plane"></i></button>
+    </div> 
+    </main>
+    <script src="ft2.js" defer></script>
+</body>
+</html>
